@@ -1,0 +1,66 @@
+﻿body.background {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+/* Заголовки */
+.h1 {
+    text-align: center;
+    font-family: Arial;
+    color: yellow;
+}
+
+.h2 {
+    text-align: center;
+    font-family: Arial;
+    color: green;
+}
+
+.h3 {
+    text-align: center;
+    font-family: Arial;
+    color: blue;
+}
+
+.h4 {
+    text-align: center;
+    font-family: Arial;
+    color: red;
+}
+
+/* Текст справа */
+.right-text p {
+    text-align: right;
+}
+
+/* Радужный список */
+.rainbow li:nth-child(1) { color: red; }
+.rainbow li:nth-child(2) { color: orange; }
+.rainbow li:nth-child(3) { color: yellow; }
+.rainbow li:nth-child(4) { color: green; }
+.rainbow li:nth-child(5) { color: cyan; }
+.rainbow li:nth-child(6) { color: blue; }
+.rainbow li:nth-child(7) { color: violet; }
+
+/* ВТОРОЕ ЗАДАНИЕ (общие стили) */
+
+h1 {
+    font-family: Terminal;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 12%;
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background-color: gray;
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 30px;
+    font-family: Arial;
+    text-align: justify;
+}
